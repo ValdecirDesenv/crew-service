@@ -1,4 +1,9 @@
 package com.vdc.crewservice;
 
-public class CrewNotFoundException {
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+
+public class CrewNotFoundException extends RuntimeException{
+
 }
